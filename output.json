@@ -1,0 +1,1012 @@
+[
+  {
+    "route": [0, 19, 45, 48, 51, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 19,
+        "due": 349,
+        "readyTime": 274,
+        "travelTime": 66,
+        "arrival": 274,
+        "departure": 364
+      },
+      {
+        "node": 45,
+        "due": 628,
+        "readyTime": 513,
+        "travelTime": 65,
+        "arrival": 513,
+        "departure": 603
+      },
+      {
+        "node": 48,
+        "due": 726,
+        "readyTime": 599,
+        "travelTime": 2,
+        "arrival": 605,
+        "departure": 695
+      },
+      {
+        "node": 51,
+        "due": 816,
+        "readyTime": 695,
+        "travelTime": 5,
+        "arrival": 700,
+        "departure": 790
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 11,
+        "arrival": 801,
+        "departure": 801
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 16, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 16,
+        "due": 525,
+        "readyTime": 478,
+        "travelTime": 66,
+        "arrival": 478,
+        "departure": 568
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 66,
+        "arrival": 634,
+        "departure": 634
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 14, 50, 47, 49, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 14,
+        "due": 616,
+        "readyTime": 571,
+        "travelTime": 64,
+        "arrival": 571,
+        "departure": 661
+      },
+      {
+        "node": 50,
+        "due": 916,
+        "readyTime": 779,
+        "travelTime": 63,
+        "arrival": 779,
+        "departure": 869
+      },
+      {
+        "node": 47,
+        "due": 1127,
+        "readyTime": 872,
+        "travelTime": 8,
+        "arrival": 877,
+        "departure": 967
+      },
+      {
+        "node": 49,
+        "due": 1126,
+        "readyTime": 917,
+        "travelTime": 9,
+        "arrival": 976,
+        "departure": 1066
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 12,
+        "arrival": 1078,
+        "departure": 1078
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 18, 40, 44, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 18,
+        "due": 261,
+        "readyTime": 172,
+        "travelTime": 61,
+        "arrival": 172,
+        "departure": 262
+      },
+      {
+        "node": 40,
+        "due": 345,
+        "readyTime": 240,
+        "travelTime": 60,
+        "arrival": 322,
+        "departure": 412
+      },
+      {
+        "node": 44,
+        "due": 433,
+        "readyTime": 338,
+        "travelTime": 5,
+        "arrival": 417,
+        "departure": 507
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 10,
+        "arrival": 517,
+        "departure": 517
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 15, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 15,
+        "due": 421,
+        "readyTime": 392,
+        "travelTime": 61,
+        "arrival": 392,
+        "departure": 482
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 61,
+        "arrival": 543,
+        "departure": 543
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 43, 41, 12, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 43,
+        "due": 153,
+        "readyTime": 16,
+        "travelTime": 10,
+        "arrival": 16,
+        "departure": 106
+      },
+      {
+        "node": 41,
+        "due": 278,
+        "readyTime": 123,
+        "travelTime": 4,
+        "arrival": 123,
+        "departure": 213
+      },
+      {
+        "node": 12,
+        "due": 726,
+        "readyTime": 647,
+        "travelTime": 60,
+        "arrival": 647,
+        "departure": 737
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 61,
+        "arrival": 798,
+        "departure": 798
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 17, 59, 52, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 17,
+        "due": 142,
+        "readyTime": 105,
+        "travelTime": 58,
+        "arrival": 105,
+        "departure": 195
+      },
+      {
+        "node": 59,
+        "due": 870,
+        "readyTime": 521,
+        "travelTime": 61,
+        "arrival": 521,
+        "departure": 611
+      },
+      {
+        "node": 52,
+        "due": 1024,
+        "readyTime": 857,
+        "travelTime": 25,
+        "arrival": 857,
+        "departure": 947
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 14,
+        "arrival": 961,
+        "departure": 961
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 13, 1, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 13,
+        "due": 95,
+        "readyTime": 30,
+        "travelTime": 54,
+        "arrival": 54,
+        "departure": 144
+      },
+      {
+        "node": 1,
+        "due": 989,
+        "readyTime": 890,
+        "travelTime": 58,
+        "arrival": 890,
+        "departure": 980
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 25,
+        "arrival": 1005,
+        "departure": 1005
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 42, 39, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 42,
+        "due": 225,
+        "readyTime": 19,
+        "travelTime": 10,
+        "arrival": 19,
+        "departure": 109
+      },
+      {
+        "node": 39,
+        "due": 650,
+        "readyTime": 541,
+        "travelTime": 45,
+        "arrival": 541,
+        "departure": 631
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 46,
+        "arrival": 677,
+        "departure": 677
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 20, 38, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 20,
+        "due": 77,
+        "readyTime": 10,
+        "travelTime": 22,
+        "arrival": 22,
+        "departure": 112
+      },
+      {
+        "node": 38,
+        "due": 527,
+        "readyTime": 474,
+        "travelTime": 45,
+        "arrival": 474,
+        "departure": 564
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 41,
+        "arrival": 605,
+        "departure": 605
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 46, 36, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 46,
+        "due": 542,
+        "readyTime": 415,
+        "travelTime": 10,
+        "arrival": 415,
+        "departure": 505
+      },
+      {
+        "node": 36,
+        "due": 733,
+        "readyTime": 648,
+        "travelTime": 40,
+        "arrival": 648,
+        "departure": 738
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 41,
+        "arrival": 779,
+        "departure": 779
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 53, 21, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 53,
+        "due": 412,
+        "readyTime": 221,
+        "travelTime": 40,
+        "arrival": 221,
+        "departure": 311
+      },
+      {
+        "node": 21,
+        "due": 961,
+        "readyTime": 918,
+        "travelTime": 45,
+        "arrival": 918,
+        "departure": 1008
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 24,
+        "arrival": 1032,
+        "departure": 1032
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 5, 37, 4, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 5,
+        "due": 60,
+        "readyTime": 15,
+        "travelTime": 25,
+        "arrival": 25,
+        "departure": 115
+      },
+      {
+        "node": 37,
+        "due": 452,
+        "readyTime": 365,
+        "travelTime": 44,
+        "arrival": 365,
+        "departure": 455
+      },
+      {
+        "node": 4,
+        "due": 806,
+        "readyTime": 703,
+        "travelTime": 46,
+        "arrival": 703,
+        "departure": 793
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 28,
+        "arrival": 821,
+        "departure": 821
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 34, 22, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 34,
+        "due": 852,
+        "readyTime": 715,
+        "travelTime": 38,
+        "arrival": 715,
+        "departure": 805
+      },
+      {
+        "node": 22,
+        "due": 889,
+        "readyTime": 806,
+        "travelTime": 44,
+        "arrival": 849,
+        "departure": 939
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 26,
+        "arrival": 965,
+        "departure": 965
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 3, 56, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 3,
+        "due": 156,
+        "readyTime": 55,
+        "travelTime": 26,
+        "arrival": 55,
+        "departure": 145
+      },
+      {
+        "node": 56,
+        "due": 474,
+        "readyTime": 347,
+        "travelTime": 42,
+        "arrival": 347,
+        "departure": 437
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 36,
+        "arrival": 473,
+        "departure": 473
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 30, 2, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 30,
+        "due": 501,
+        "readyTime": 452,
+        "travelTime": 36,
+        "arrival": 452,
+        "departure": 542
+      },
+      {
+        "node": 2,
+        "due": 879,
+        "readyTime": 816,
+        "travelTime": 43,
+        "arrival": 816,
+        "departure": 906
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 27,
+        "arrival": 933,
+        "departure": 933
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 31, 11, 23, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 31,
+        "due": 233,
+        "readyTime": 204,
+        "travelTime": 27,
+        "arrival": 204,
+        "departure": 294
+      },
+      {
+        "node": 11,
+        "due": 503,
+        "readyTime": 450,
+        "travelTime": 42,
+        "arrival": 450,
+        "departure": 540
+      },
+      {
+        "node": 23,
+        "due": 770,
+        "readyTime": 739,
+        "travelTime": 43,
+        "arrival": 739,
+        "departure": 829
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 29,
+        "arrival": 858,
+        "departure": 858
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 24, 58, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 24,
+        "due": 154,
+        "readyTime": 55,
+        "travelTime": 27,
+        "arrival": 55,
+        "departure": 145
+      },
+      {
+        "node": 58,
+        "due": 602,
+        "readyTime": 403,
+        "travelTime": 41,
+        "arrival": 403,
+        "departure": 493
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 34,
+        "arrival": 527,
+        "departure": 527
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 54, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 54,
+        "due": 347,
+        "readyTime": 96,
+        "travelTime": 34,
+        "arrival": 96,
+        "departure": 186
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 34,
+        "arrival": 220,
+        "departure": 220
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 33, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 33,
+        "due": 203,
+        "readyTime": 42,
+        "travelTime": 34,
+        "arrival": 42,
+        "departure": 132
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 34,
+        "arrival": 166,
+        "departure": 166
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 7, 28, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 7,
+        "due": 223,
+        "readyTime": 172,
+        "travelTime": 28,
+        "arrival": 172,
+        "departure": 262
+      },
+      {
+        "node": 28,
+        "due": 586,
+        "readyTime": 553,
+        "travelTime": 41,
+        "arrival": 553,
+        "departure": 643
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 34,
+        "arrival": 677,
+        "departure": 677
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 55, 9, 6, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 55,
+        "due": 233,
+        "readyTime": 35,
+        "travelTime": 29,
+        "arrival": 35,
+        "departure": 125
+      },
+      {
+        "node": 9,
+        "due": 650,
+        "readyTime": 489,
+        "travelTime": 42,
+        "arrival": 489,
+        "departure": 579
+      },
+      {
+        "node": 6,
+        "due": 764,
+        "readyTime": 559,
+        "travelTime": 43,
+        "arrival": 622,
+        "departure": 712
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 31,
+        "arrival": 743,
+        "departure": 743
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 27, 10, 60, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 27,
+        "due": 313,
+        "readyTime": 264,
+        "travelTime": 31,
+        "arrival": 264,
+        "departure": 354
+      },
+      {
+        "node": 10,
+        "due": 406,
+        "readyTime": 361,
+        "travelTime": 42,
+        "arrival": 396,
+        "departure": 486
+      },
+      {
+        "node": 60,
+        "due": 704,
+        "readyTime": 487,
+        "travelTime": 43,
+        "arrival": 529,
+        "departure": 619
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 32,
+        "arrival": 651,
+        "departure": 651
+      }
+    ],
+    "demand": 40
+  },
+  {
+    "route": [0, 35, 29, 26, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 35,
+        "due": 376,
+        "readyTime": 251,
+        "travelTime": 32,
+        "arrival": 251,
+        "departure": 341
+      },
+      {
+        "node": 29,
+        "due": 398,
+        "readyTime": 365,
+        "travelTime": 42,
+        "arrival": 383,
+        "departure": 473
+      },
+      {
+        "node": 26,
+        "due": 711,
+        "readyTime": 612,
+        "travelTime": 42,
+        "arrival": 612,
+        "departure": 702
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 32,
+        "arrival": 734,
+        "departure": 734
+      }
+    ],
+    "demand": 30
+  },
+  {
+    "route": [0, 32, 0],
+    "time": [
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 0,
+        "arrival": 0,
+        "departure": 0
+      },
+      {
+        "node": 32,
+        "due": 189,
+        "readyTime": 31,
+        "travelTime": 32,
+        "arrival": 32,
+        "departure": 122
+      },
+      {
+        "node": 0,
+        "due": 1236,
+        "readyTime": 0,
+        "travelTime": 32,
+        "arrival": 154,
+        "departure": 154
+      }
+    ],
+    "demand": 30
+  },
+  {
+    "numberOfUsedVehicles": 25,
+    "unVisitedNodes": [25, 57]
+  }
+]
