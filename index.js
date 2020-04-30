@@ -1,32 +1,28 @@
 const fs = require('fs');
 const parseData = require('./parseData');
 
-const self = {};
-
-self.fileName = 'c106_60';
-self.routes = [];
-self.route = [];
-self.customerData = [];
-self.distanceData = [];
-self.vehicleCapacity = 50;
-self.vehicle = 25;
-self.unVisitedNodes = [];
-self.showErrors = true;
-self.msg = {
-  vehicleCount: 'Vehicle count has exceeded for route ',
-  vehicleCapacity: 'Vehicle capacity has exceeded for route ',
-  schedule: 'Schedule issue for route ',
-  initialRoute: 'Initial route created ',
-  newNode: 'New node added to the current route',
-  end: 'No nodes left',
+// params
+const self = {
+  routes: [],
+  route: [],
+  vehicleCapacity: 50,
+  vehicle: 25,
+  msg: {
+    vehicleCount: 'Vehicle count has exceeded for route ',
+    vehicleCapacity: 'Vehicle capacity has exceeded for route ',
+    schedule: 'Schedule issue for route ',
+    initialRoute: 'Initial route created ',
+    newNode: 'New node added to the current route',
+    end: 'No nodes left',
+  },
+  fileOptions: {
+    fileName: './Instances/c106_10.txt',
+    customerLoc: './data/customer.json',
+    distanceLoc: './data/distance.json',
+  },
+  outputFile: './output.json',
+  showErrors: true,
 };
-self.fileOptions = {
-  fileName: `./Instances/${self.fileName}.txt`,
-  customerLoc: './data/customer.json',
-  distanceLoc: './data/distance.json',
-};
-self.outputFile = './output.json';
-self.output = [];
 
 // Number
 self.findDistanceBetweenNodes = (a, b) => {
@@ -204,8 +200,9 @@ self.createNewVehicle = () => {
 };
 
 self.prepareDetailedOutput = () => {
+  const output = [];
   self.routes.forEach((route) => {
-    self.output.push({
+    output.push({
       route,
       time: self.calculateRouteTime(route),
       demand: route.reduce((prev, current) => {
@@ -214,10 +211,12 @@ self.prepareDetailedOutput = () => {
     });
   });
 
-  self.output.push({
+  output.push({
     numberOfUsedVehicles: self.routes.length,
     unVisitedNodes: self.unVisitedNodes.filter((i) => i !== 0),
   });
+
+  return output;
 };
 
 self.init = async () => {
@@ -249,9 +248,7 @@ self.init = async () => {
     self.routes.push(self.route);
   }
 
-  self.prepareDetailedOutput();
-
-  const data = JSON.stringify(self.output);
+  const data = JSON.stringify(self.prepareDetailedOutput());
 
   fs.writeFile(self.outputFile, data, (err) => {
     if (err) throw err;
